@@ -1,0 +1,38 @@
+@media screen and (min-width: 540px) {
+    .clients .companies{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .guide .steps{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 700px) {
+    .clients .companies{
+        grid-template-columns: repeat(6,1fr);
+    }
+    
+}
+
+@media screen and (min-width: 850px) {
+    header .left .nav-desktop{
+        display: block;
+        display: flex;
+    }
+    .hamb{
+        display: none;
+
+        .hero .desc .title{
+            font-size: 64px;
+        }
+    }
+}
+@media screen and (min-width: 920px){
+    .hero{
+        background-size: 35%;
+    }
+}
+@media screen and (min-width: 1280px){
+    .hero{
+        background-size: 35%;
+    }
+}
