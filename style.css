@@ -347,3 +347,94 @@ header .right .account{
 .guide .action{
     text-align: center;
 }
+.property{
+    padding: 100px 0;
+    background-color: #f5fafe;
+}
+.property .top{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+    margin-bottom: 60px;
+    align-items: flex-end;
+}
+.property .top h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--clr-title);
+    margin-bottom: 8px;
+}
+.property .top .btn-line{
+    padding: 0;
+    color: var(--clr-light-blue);
+}
+.property .top .btn-line i{
+    font-size: 1.1rem;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.property .list{
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.property .list .card{
+    background-color: var(--clr-white);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.property .list .card:hover{
+    box-shadow: 0 45px 80px rgba(0, 0, 0, 0.04);
+}
+.property .list .placeholder{
+    width: 100%;
+    height: 225px;
+    background-color: var(--clr-light-blue);
+    background-image: url(property-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 120%; */
+    transition-duration: 0.3s;
+    transition-property: background-size box-shadow;
+}
+.property .list .card:nth-child(1) .placeholder{
+    background-image: url(property-1.jpg); 
+}
+.property .list .card:nth-child(2) .placeholder{
+    background-image: url(property-2.jpg); 
+}
+.property .list .card:nth-child(3) .placeholder{
+    background-image: url(property-3.jpg); 
+}
+.property .list .card:hover .placeholder{
+    background-size: 130%; 
+    transition: 0.1s;
+}
+.property .list .bottom{
+    padding: 20px;
+}
+.property .list .bottom h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--clr-primary);
+}
+.property .list .bottom p{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--clr-text-light-80);
+    margin: 8px 0;
+}
+.property .list .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.property .list .features span{
+    font-size: 14px;
+    color: var(--clr-text);
+}
+.property .list .features span i{
+    font-size: 1rem;
+    vertical-align: middle;
+    
+}
