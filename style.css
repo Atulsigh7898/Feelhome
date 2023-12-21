@@ -513,3 +513,61 @@ header .right .account{
 .newsletter .placeholder{
     display: none;
 }
+footer{
+    padding: 40px 0;
+}
+footer .top{
+    margin-bottom: 40px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);  
+}
+footer .box h5 a{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--clr-secondry);
+    margin-bottom: 24px;
+}
+footer .box .links span{
+    display: block;
+    margin: 12px 0;
+}
+footer .box .links span a {
+    color: var(--clr-text-light-80);
+}
+footer .box .links span:hover a {
+    text-decoration: underline;
+    color: var(--clr-secondry);
+    transform: translateX(5px);
+}
+footer .connect{
+    max-width: 250px;
+}
+footer .connect p{
+   color: var(--clr-text-light-80);
+   margin-bottom: 24px;
+}
+footer .connect .Social a {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    background-color: #dddddddd;
+    padding-top: 3px;
+    border-radius: 3px;
+    text-align: center;
+    color: var(--clr-text-light);
+    font-size: 1.1rem;
+    transition-duration: 0.3s;
+    transition-property: color backround-color; 
+}
+footer .connect .Social a:hover {
+    background-color: var(--clr-light-blue);
+    color: var(--clr-white); 
+}
+footer .bottom{
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
