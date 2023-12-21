@@ -5,10 +5,25 @@
     .guide .steps{
         grid-template-columns: repeat(3, 1fr);
     }
+    .progress .done span{
+        font-size: 58px;
+    }
 }
 @media screen and (min-width: 700px) {
     .clients .companies{
         grid-template-columns: repeat(6,1fr);
+    }
+    .newsletter .container{
+        height: 365px;
+        padding: 60px 80px;
+    }
+    .newsletter .placeholder{
+        display: block;
+        max-width: 42%;
+
+        position: absolute;
+        right: 40px;
+        bottom: 0;
     }
     
 }

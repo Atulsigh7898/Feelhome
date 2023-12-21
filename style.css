@@ -436,5 +436,80 @@ header .right .account{
 .property .list .features span i{
     font-size: 1rem;
     vertical-align: middle;
-    
+}
+.progress{
+    padding: 100px 0 0;
+}
+.progress .details{
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-around;
+}
+.progress .details .left{
+    width: 520px;
+    max-width: 100%;
+}
+.progress .details .right{
+    width: 310px;
+    max-width: 100%;
+}
+.progress .details .right .title{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--clr-title);
+    margin-bottom: 18px;
+}
+.progress .done{
+    margin-top: 60;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.progress .done span{
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--clr-primary);
+    margin-bottom: 12px;
+}
+.newsletter{
+    padding: 100px 0 64px;
+}
+.newsletter .container{
+    background-color: var(--clr-secondry);
+    padding: 60px 70px;
+    border-radius: 20px;
+    color: var(--clr-white);
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+.newsletter .text-box{
+    width: 410px;
+    max-width: 100%;
+ }
+.newsletter .text-box h3{
+   font-size: 28px;
+   font-weight: 600;
+}
+.newsletter .text-box p{
+    color: #c5c5c5;
+    margin: 12px 0 24px;
+}
+.newsletter .text-box .btn-fill{
+    border: 2px solid var(--clr-white);
+    background-color: var(--clr-white);
+    color: var(--clr-secondry);
+}
+.newsletter .text-box .btn-fill:hover{
+    border: 2px solid var(--clr-light-blue);
+    background-color: var(--clr-light-blue);
+    color: var(--clr-white);
+}
+.newsletter .placeholder{
+    display: none;
 }
