@@ -25,6 +25,15 @@
         right: 40px;
         bottom: 0;
     }
+    footer .top{
+        grid-template-columns: repeat(4, 1fr);  
+    }
+    footer .bottom{
+        grid-template-columns: 1fr 2fr;
+    }
+    footer .bottom p{
+        text-align: right;
+    }
     
 }
 
